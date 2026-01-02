@@ -20,7 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="demo1.c" />
-    <ClCompile Include="point03.c" />
+    <ClCompile Include="point03.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="point04.c" />
     <ClCompile Include="point_02.c" />
   </ItemGroup>
