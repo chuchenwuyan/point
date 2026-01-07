@@ -30,5 +30,8 @@
     <ClCompile Include="point05.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="point_up01.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
